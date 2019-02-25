@@ -1,4 +1,4 @@
-package ConceptOfTheDay;
+package interviewPrograms;
 
 import java.util.Scanner;
 
