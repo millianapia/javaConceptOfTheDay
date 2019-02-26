@@ -7,12 +7,12 @@ public class whiteSpaceRemover {
         Scanner inn = new Scanner(System.in);
         System.out.println("Write what you want whitespace removed from");
         String str = inn.nextLine();
-        builtIn(str);
+        System.out.println(builtIn(str));
         charMethod(str);
     }
 
-    public static void builtIn(String str){
-        System.out.println(str.replaceAll("\\s+", ""));
+    public static String builtIn(String str){
+        return (str.replaceAll("\\s+", ""));
     }
 
     public static void charMethod(String str){

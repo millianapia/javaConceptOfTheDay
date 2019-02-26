@@ -13,7 +13,7 @@ public class findingDuplicates {
 
         HashMap<Character, Integer> charCountMap = new HashMap<>();
 
-        
+
         char[] strArray = str.toCharArray();
         for (char c : strArray) {
             if (charCountMap.containsKey(c)) {
